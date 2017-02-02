@@ -34,6 +34,6 @@ app.get('/:time', function(req, res){
 
 
 
-app.listen(8080, function(){
+app.listen(process.env.PORT, function(){
     console.log("Listenando da porta 8080");
 })
