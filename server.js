@@ -4,7 +4,7 @@ var results = {}
 var monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"];
 
-var message = 'Bem vindo ao timestamp. Digite a data após o link. Ex: "/December%2015,%202015" ou "/1450137600000" '
+var message = 'Bem vindo ao timestamp. Digite a data após o link. Ex: "https://mytimestamp-api.herokuapp.com/December%2015,%202015" ou "https://mytimestamp-api.herokuapp.com/1450137600000" '
 
 
 function getTime(query){
